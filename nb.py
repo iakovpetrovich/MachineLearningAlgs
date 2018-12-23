@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 from scipy.stats import norm
 from pandas.api.types import is_numeric_dtype
-data = pd.read_csv("C:\\Users\\jasap\\Downloads\\RAMU\\drug.csv")
+data = pd.read_csv("drug.csv")
 
 def learn(data,label = None,alpha = 0.01):
     if(type(label) != str):
