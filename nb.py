@@ -33,7 +33,7 @@ def learn(data,label = None,alpha = 0.01):
         model[attribute] = np.log(cont_matrix)
     return model
 
-new = pd.read_csv("C:\\Users\\jasap\\Downloads\\RAMU\\novi.csv")
+new = pd.read_csv("novi.csv")
 
 print(learn(data))
 
